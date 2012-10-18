@@ -1,7 +1,7 @@
 $.fn.scrollToSection = function(options){
     
     function scrollToSection(id, time){
-      $("body").animate({scrollTop: $(id).offset().top}, time);
+      $("body,html").animate({scrollTop: $(id).offset().top}, time);
     }
 
     $(this).on("click", "a", function(event) {
