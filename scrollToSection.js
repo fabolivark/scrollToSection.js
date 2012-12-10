@@ -1,3 +1,6 @@
+//
+//  jQuery Scroll To Section Plugin by Andres Rojas (andresroberto2009@gmail.com)
+
 $.fn.scrollToSection = function(options){
     
     function scrollToSection(id, time){
